@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300&display=swap");
 
 :root {
   --height-banner: 10%;
@@ -32,7 +32,7 @@
   height: var(--height-banner);
 }
 
-.espacio{
+.espacio {
   height: var(--height-banner);
 }
 
@@ -133,7 +133,7 @@ li {
   border-style: outset;
 }
 
-.academic{
+.academic {
   width: 50%;
   display: block;
   text-align: center;
@@ -175,71 +175,42 @@ li {
 .audio {
   display: block;
   width: -webkit-fill-available;
-
 }
 
-.music, .formation{
+.music,
+.formation {
   display: block;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  
 }
 
-.img-music2{
+.img-music2 {
   width: 50%;
   padding: 5%;
 }
 
-.img-music1{
-  width:80%;
+.img-music1 {
+  width: 80%;
   padding: 5%;
 }
 
-h1, h2, h3, h4, h5, h6{
-  font-family: 'PT Serif';
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "PT Serif";
 }
 
-p, li, .pr{
-  font-family: 'Roboto Slab', serif;
+p,
+li,
+.pr {
+  font-family: "Roboto Slab", serif;
 }
 
-h2.cards, h5.cards{
+h2.cards,
+h5.cards {
   color: var(--blue);
 }
-
-
-input[type="checkbox"]{
-  visibility:hidden;
-  position:absolute;
-}
-#collapse:checked ~ li{  
-  margin-top:0;
-  opacity:1;
-}
-#collapse:checked + label:before{
-  position:relative;
-  right:calc(-160px);
-  opacity:0.5;
-}
-
-label:before{
-  height:2px;
-  width:20px;
-  background:#333;
-  display:inline-block;
-  content:"";
-  box-shadow:0px -5px 0px 0px  #333,
-             0px -10px 0px 0px #333;
-  margin-right:10px;
-  transition:all .5s;
-  position:relative;
-  opacity:1;
-}
-label{
-  display:block;  
-  padding:10px;
-  color:white;  
-  cursor:pointer; 
-}
-

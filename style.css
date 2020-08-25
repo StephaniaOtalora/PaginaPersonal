@@ -8,12 +8,12 @@
 }
 
 .bar {
-  height: 100%;
+  height: max-content;
   z-index: 1;
   overflow-x: hidden;
   padding-top: 1%;
   position: fixed;
-  transition: 0.5s;
+  transition: 0.5s; 
 }
 
 .content {

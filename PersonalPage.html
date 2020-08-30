@@ -21,7 +21,7 @@
 
 <body>
     <main>
-        <div class="container-fluid">
+        <div class="container-fluid"> <!--Falta cerrar el div-->
             <div class="row fixed-top banner">
                 <div class="col bannerTitle">
                     <h1>Stephania Otalora</h1>
@@ -34,7 +34,7 @@
                 <br>
             </div>
 
-            <div class="row despues">
+            <div class="row despues"> <!--Falta cerrar el div-->
                 <div class="bar col-xs-12 col-md-2">
                     <a class="btn menu" data-toggle="collapse" href="#v-pills-tab" role="button" aria-expanded="false"
                         aria-controls="collapseExample">
@@ -49,7 +49,7 @@
                         <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
                             role="tab" aria-controls="v-pills-home" aria-selected="true">
                             <h6 class="sidebarItem">Profile</h6>
-                        </a></li>
+                        </a><!--Se cierra el li pero nunca se abre-->
                         <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
                             role="tab" aria-controls="v-pills-profile" aria-selected="false">
                             <h6>Projects</h6>
@@ -90,7 +90,7 @@
                                         Occupation
                                     </h1>
                                     <p>
-                                    <div class="spinner-border spin" role="status"> </div>
+                                    <div class="spinner-border spin" role="status"> </div> <!--El spinner da la impresón de que la página está cargando-->
                                     <span class="pr">Industrial Engineering</span> </p>
                                     <p>
                                     <div class="spinner-border spin" role="status"> </div>
@@ -188,11 +188,12 @@
                             </div>
 
                             <div class="row">
-                                <di class="col-sm-12 col-md-8 col-lg-6"><iframe class="video"
+                                <!--Falta la v en di-->
+                                <div class="col-sm-12 col-md-8 col-lg-6"><iframe class="video"
                                         src="https://www.youtube.com/embed/fOYWmBcHwbs" frameborder="0"
                                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                         allowfullscreen></iframe>
-                                </di>
+                                </div>
                                 <div class="col-sm-12 col-md-8 col-lg-6"><iframe class="video"
                                         src="https://www.youtube.com/embed/Ra_HScKBU_U" frameborder="0"
                                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -318,6 +319,8 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
     </main>
     <footer class="footer">
         <div class="row">
